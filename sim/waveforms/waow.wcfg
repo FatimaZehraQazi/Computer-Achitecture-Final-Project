@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tbHazard_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tbHazard" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2805900fs"></ZoomStartTime>
+      <ZoomEndTime time="2978851fs"></ZoomEndTime>
+      <Cursor1Time time="3000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="148"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="100" />
+   <wave_markers>
+      <marker time="225000" label="" />
+      <marker time="195000" label="" />
+      <marker time="255000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tbHazard/HP/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/muxfirst/A" type="array">
+      <obj_property name="ElementShortName">A[63:0]</obj_property>
+      <obj_property name="ObjectShortName">A[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/muxfirst/B" type="array">
+      <obj_property name="ElementShortName">B[63:0]</obj_property>
+      <obj_property name="ObjectShortName">B[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/muxfirst/S" type="logic">
+      <obj_property name="ElementShortName">S</obj_property>
+      <obj_property name="ObjectShortName">S</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/muxfirst/Out" type="array">
+      <obj_property name="ElementShortName">Out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Out[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/cu/stall" type="logic">
+      <obj_property name="ElementShortName">stall</obj_property>
+      <obj_property name="ObjectShortName">stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/PC_In" type="array">
+      <obj_property name="ElementShortName">PC_In[63:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_In[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/A2/A" type="array">
+      <obj_property name="ElementShortName">A[63:0]</obj_property>
+      <obj_property name="ObjectShortName">A[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/A2/B" type="array">
+      <obj_property name="ElementShortName">B[63:0]</obj_property>
+      <obj_property name="ObjectShortName">B[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/A2/Out" type="array">
+      <obj_property name="ElementShortName">Out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Out[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/PC_Out" type="array">
+      <obj_property name="ElementShortName">PC_Out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_Out[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/ReadData1" type="array">
+      <obj_property name="ElementShortName">ReadData1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData1[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/ReadData2" type="array">
+      <obj_property name="ElementShortName">ReadData2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData2[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/WriteData" type="array">
+      <obj_property name="ElementShortName">WriteData[63:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/Result" type="array">
+      <obj_property name="ElementShortName">Result[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Result[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/Read_Data" type="array">
+      <obj_property name="ElementShortName">Read_Data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Read_Data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/imm_data" type="array">
+      <obj_property name="ElementShortName">imm_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/Instruction" type="array">
+      <obj_property name="ElementShortName">Instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[6:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/rs1" type="array">
+      <obj_property name="ElementShortName">rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/rs2" type="array">
+      <obj_property name="ElementShortName">rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/rd" type="array">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/ALUOp" type="array">
+      <obj_property name="ElementShortName">ALUOp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/adder_out1" type="array">
+      <obj_property name="ElementShortName">adder_out1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">adder_out1[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/adder_out2" type="array">
+      <obj_property name="ElementShortName">adder_out2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">adder_out2[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/Branch" type="logic">
+      <obj_property name="ElementShortName">Branch</obj_property>
+      <obj_property name="ObjectShortName">Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/MemRead" type="logic">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/MemtoReg" type="logic">
+      <obj_property name="ElementShortName">MemtoReg</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/ALUSrc" type="logic">
+      <obj_property name="ElementShortName">ALUSrc</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/Zero" type="logic">
+      <obj_property name="ElementShortName">Zero</obj_property>
+      <obj_property name="ObjectShortName">Zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/stall" type="logic">
+      <obj_property name="ElementShortName">stall</obj_property>
+      <obj_property name="ObjectShortName">stall</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/muxmid_out" type="array">
+      <obj_property name="ElementShortName">muxmid_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">muxmid_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/funct7" type="array">
+      <obj_property name="ElementShortName">funct7[6:0]</obj_property>
+      <obj_property name="ObjectShortName">funct7[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/Funct" type="array">
+      <obj_property name="ElementShortName">Funct[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Funct[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/Operation" type="array">
+      <obj_property name="ElementShortName">Operation[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Operation[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/funct3" type="array">
+      <obj_property name="ElementShortName">funct3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">funct3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/sel_Branch" type="logic">
+      <obj_property name="ElementShortName">sel_Branch</obj_property>
+      <obj_property name="ObjectShortName">sel_Branch</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/IF_ID_Instruction" type="array">
+      <obj_property name="ElementShortName">IF_ID_Instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_Instruction[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/rf/RS1" type="array">
+      <obj_property name="ElementShortName">RS1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RS1[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/rf/ReadData1" type="array">
+      <obj_property name="ElementShortName">ReadData1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData1[63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/rf/RS2" type="array">
+      <obj_property name="ElementShortName">RS2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RS2[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/rf/ReadData2" type="array">
+      <obj_property name="ElementShortName">ReadData2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData2[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/rd" type="array">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/EXMEM/EX_MEM_RD" type="array">
+      <obj_property name="ElementShortName">EX_MEM_RD[4:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_RD[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#0000A0</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/EXMEM/EX_MEM_Result" type="array">
+      <obj_property name="ElementShortName">EX_MEM_Result[63:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_Result[63:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000A0</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/Mux_3x1_A/A" type="array">
+      <obj_property name="ElementShortName">A[63:0]</obj_property>
+      <obj_property name="ObjectShortName">A[63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/Mux_3x1_A/B" type="array">
+      <obj_property name="ElementShortName">B[63:0]</obj_property>
+      <obj_property name="ObjectShortName">B[63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/Mux_3x1_A/C" type="array">
+      <obj_property name="ElementShortName">C[63:0]</obj_property>
+      <obj_property name="ObjectShortName">C[63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/Mux_3x1_A/sel" type="array">
+      <obj_property name="ElementShortName">sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sel[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/FU/ForwardA" type="array">
+      <obj_property name="ElementShortName">ForwardA[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardA[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/Mux_3x1_A/O" type="array">
+      <obj_property name="ElementShortName">O[63:0]</obj_property>
+      <obj_property name="ObjectShortName">O[63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/rf/ReadData2" type="array">
+      <obj_property name="ElementShortName">ReadData2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData2[63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/IF_ID_PC_Out" type="array">
+      <obj_property name="ElementShortName">IF_ID_PC_Out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_PC_Out[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/ID_EX_Branch" type="logic">
+      <obj_property name="ElementShortName">ID_EX_Branch</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/ID_EX_MemRead" type="logic">
+      <obj_property name="ElementShortName">ID_EX_MemRead</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/ID_EX_MemWrite" type="logic">
+      <obj_property name="ElementShortName">ID_EX_MemWrite</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/ID_EX_MemtoReg" type="logic">
+      <obj_property name="ElementShortName">ID_EX_MemtoReg</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_MemtoReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/ID_EX_ALUSrc" type="logic">
+      <obj_property name="ElementShortName">ID_EX_ALUSrc</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_ALUSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/ID_EX_RegWrite" type="logic">
+      <obj_property name="ElementShortName">ID_EX_RegWrite</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/ID_EX_ALUOp" type="array">
+      <obj_property name="ElementShortName">ID_EX_ALUOp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_ALUOp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/ID_EX_PC_Out" type="array">
+      <obj_property name="ElementShortName">ID_EX_PC_Out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_PC_Out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/ID_EX_ReadData1" type="array">
+      <obj_property name="ElementShortName">ID_EX_ReadData1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_ReadData1[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/ID_EX_ReadData2" type="array">
+      <obj_property name="ElementShortName">ID_EX_ReadData2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_ReadData2[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/ID_EX_Imm_Data" type="array">
+      <obj_property name="ElementShortName">ID_EX_Imm_Data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_Imm_Data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/ID_EX_RS1" type="array">
+      <obj_property name="ElementShortName">ID_EX_RS1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_RS1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/ID_EX_RS2" type="array">
+      <obj_property name="ElementShortName">ID_EX_RS2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_RS2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/ID_EX_RD" type="array">
+      <obj_property name="ElementShortName">ID_EX_RD[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_RD[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/ID_EX_Funct" type="array">
+      <obj_property name="ElementShortName">ID_EX_Funct[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_Funct[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/ID_EX_Funct3" type="array">
+      <obj_property name="ElementShortName">ID_EX_Funct3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_Funct3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/EX_MEM_Branch" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_Branch</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/EX_MEM_Zero" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_Zero</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_Zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/EX_MEM_MemRead" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_MemRead</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/EX_MEM_MemWrite" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_MemWrite</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/EX_MEM_MemtoReg" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_MemtoReg</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_MemtoReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/EX_MEM_RegWrite" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_RegWrite</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/EX_MEM_Adder_Out_2" type="array">
+      <obj_property name="ElementShortName">EX_MEM_Adder_Out_2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_Adder_Out_2[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/EX_MEM_Result" type="array">
+      <obj_property name="ElementShortName">EX_MEM_Result[63:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_Result[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/IDEX/ID_EX_RS2" type="array">
+      <obj_property name="ElementShortName">ID_EX_RS2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_RS2[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/IDEX/ID_EX_ReadData2" type="array">
+      <obj_property name="ElementShortName">ID_EX_ReadData2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_ReadData2[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/Mux_3x1_B/A" type="array">
+      <obj_property name="ElementShortName">A[63:0]</obj_property>
+      <obj_property name="ObjectShortName">A[63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/Mux_3x1_B/B" type="array">
+      <obj_property name="ElementShortName">B[63:0]</obj_property>
+      <obj_property name="ObjectShortName">B[63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/Mux_3x1_B/C" type="array">
+      <obj_property name="ElementShortName">C[63:0]</obj_property>
+      <obj_property name="ObjectShortName">C[63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/Mux_3x1_B/sel" type="array">
+      <obj_property name="ElementShortName">sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/Mux_3x1_B/O" type="array">
+      <obj_property name="ElementShortName">O[63:0]</obj_property>
+      <obj_property name="ObjectShortName">O[63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/EX_MEM_Write_Data" type="array">
+      <obj_property name="ElementShortName">EX_MEM_Write_Data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_Write_Data[63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/EX_MEM_RD" type="array">
+      <obj_property name="ElementShortName">EX_MEM_RD[4:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_RD[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/ForwardA" type="array">
+      <obj_property name="ElementShortName">ForwardA[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardA[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/ForwardB" type="array">
+      <obj_property name="ElementShortName">ForwardB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardB[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/MEM_WB_MemtoReg" type="logic">
+      <obj_property name="ElementShortName">MEM_WB_MemtoReg</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_MemtoReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/MEM_WB_RegWrite" type="logic">
+      <obj_property name="ElementShortName">MEM_WB_RegWrite</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/MEM_WB_Read_Data" type="array">
+      <obj_property name="ElementShortName">MEM_WB_Read_Data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_Read_Data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/MEM_WB_Result" type="array">
+      <obj_property name="ElementShortName">MEM_WB_Result[63:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_Result[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/MEM_WB_RD" type="array">
+      <obj_property name="ElementShortName">MEM_WB_RD[4:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_RD[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/mux_ReadData1" type="array">
+      <obj_property name="ElementShortName">mux_ReadData1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_ReadData1[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/mux_ReadData2" type="array">
+      <obj_property name="ElementShortName">mux_ReadData2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_ReadData2[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/rf/Registers" type="array">
+      <obj_property name="ElementShortName">Registers[31:0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">Registers[31:0][63:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[31]" type="array">
+         <obj_property name="ElementShortName">[31][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][63:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[30]" type="array">
+         <obj_property name="ElementShortName">[30][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][63:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[29]" type="array">
+         <obj_property name="ElementShortName">[29][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][63:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[28]" type="array">
+         <obj_property name="ElementShortName">[28][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][63:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[27]" type="array">
+         <obj_property name="ElementShortName">[27][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[26]" type="array">
+         <obj_property name="ElementShortName">[26][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[25]" type="array">
+         <obj_property name="ElementShortName">[25][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[24]" type="array">
+         <obj_property name="ElementShortName">[24][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[23]" type="array">
+         <obj_property name="ElementShortName">[23][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[22]" type="array">
+         <obj_property name="ElementShortName">[22][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[21]" type="array">
+         <obj_property name="ElementShortName">[21][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[20]" type="array">
+         <obj_property name="ElementShortName">[20][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[19]" type="array">
+         <obj_property name="ElementShortName">[19][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[18]" type="array">
+         <obj_property name="ElementShortName">[18][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[17]" type="array">
+         <obj_property name="ElementShortName">[17][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[16]" type="array">
+         <obj_property name="ElementShortName">[16][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[15]" type="array">
+         <obj_property name="ElementShortName">[15][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[14]" type="array">
+         <obj_property name="ElementShortName">[14][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[13]" type="array">
+         <obj_property name="ElementShortName">[13][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[12]" type="array">
+         <obj_property name="ElementShortName">[12][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[11]" type="array">
+         <obj_property name="ElementShortName">[11][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[10]" type="array">
+         <obj_property name="ElementShortName">[10][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[9]" type="array">
+         <obj_property name="ElementShortName">[9][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][63:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[8]" type="array">
+         <obj_property name="ElementShortName">[8][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][63:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[7]" type="array">
+         <obj_property name="ElementShortName">[7][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][63:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[6]" type="array">
+         <obj_property name="ElementShortName">[6][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][63:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[5]" type="array">
+         <obj_property name="ElementShortName">[5][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][63:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[4]" type="array">
+         <obj_property name="ElementShortName">[4][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][63:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[3]" type="array">
+         <obj_property name="ElementShortName">[3][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][63:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[2]" type="array">
+         <obj_property name="ElementShortName">[2][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][63:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[1]" type="array">
+         <obj_property name="ElementShortName">[1][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][63:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[0]" type="array">
+         <obj_property name="ElementShortName">[0][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][63:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[31]" type="array">
+         <obj_property name="ElementShortName">[31][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[30]" type="array">
+         <obj_property name="ElementShortName">[30][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[29]" type="array">
+         <obj_property name="ElementShortName">[29][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[28]" type="array">
+         <obj_property name="ElementShortName">[28][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[27]" type="array">
+         <obj_property name="ElementShortName">[27][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[26]" type="array">
+         <obj_property name="ElementShortName">[26][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[25]" type="array">
+         <obj_property name="ElementShortName">[25][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[24]" type="array">
+         <obj_property name="ElementShortName">[24][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[23]" type="array">
+         <obj_property name="ElementShortName">[23][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[22]" type="array">
+         <obj_property name="ElementShortName">[22][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[21]" type="array">
+         <obj_property name="ElementShortName">[21][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[20]" type="array">
+         <obj_property name="ElementShortName">[20][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[19]" type="array">
+         <obj_property name="ElementShortName">[19][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[18]" type="array">
+         <obj_property name="ElementShortName">[18][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[17]" type="array">
+         <obj_property name="ElementShortName">[17][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[16]" type="array">
+         <obj_property name="ElementShortName">[16][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[15]" type="array">
+         <obj_property name="ElementShortName">[15][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[14]" type="array">
+         <obj_property name="ElementShortName">[14][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[13]" type="array">
+         <obj_property name="ElementShortName">[13][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[12]" type="array">
+         <obj_property name="ElementShortName">[12][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[11]" type="array">
+         <obj_property name="ElementShortName">[11][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[10]" type="array">
+         <obj_property name="ElementShortName">[10][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[9]" type="array">
+         <obj_property name="ElementShortName">[9][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[8]" type="array">
+         <obj_property name="ElementShortName">[8][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[7]" type="array">
+         <obj_property name="ElementShortName">[7][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[6]" type="array">
+         <obj_property name="ElementShortName">[6][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[5]" type="array">
+         <obj_property name="ElementShortName">[5][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[4]" type="array">
+         <obj_property name="ElementShortName">[4][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[3]" type="array">
+         <obj_property name="ElementShortName">[3][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[2]" type="array">
+         <obj_property name="ElementShortName">[2][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[1]" type="array">
+         <obj_property name="ElementShortName">[1][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/rf/Registers[0]" type="array">
+         <obj_property name="ElementShortName">[0][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][63:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tbHazard/HP/DM/DataMemory" type="array">
+      <obj_property name="ElementShortName">DataMemory[63:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">DataMemory[63:0][7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[63]" type="array">
+         <obj_property name="ElementShortName">[63][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[63][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[62]" type="array">
+         <obj_property name="ElementShortName">[62][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[62][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[61]" type="array">
+         <obj_property name="ElementShortName">[61][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[61][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[60]" type="array">
+         <obj_property name="ElementShortName">[60][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[60][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[59]" type="array">
+         <obj_property name="ElementShortName">[59][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[59][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[58]" type="array">
+         <obj_property name="ElementShortName">[58][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[58][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[57]" type="array">
+         <obj_property name="ElementShortName">[57][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[57][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[56]" type="array">
+         <obj_property name="ElementShortName">[56][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[56][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[55]" type="array">
+         <obj_property name="ElementShortName">[55][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[55][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[54]" type="array">
+         <obj_property name="ElementShortName">[54][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[54][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[53]" type="array">
+         <obj_property name="ElementShortName">[53][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[53][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[52]" type="array">
+         <obj_property name="ElementShortName">[52][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[52][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[51]" type="array">
+         <obj_property name="ElementShortName">[51][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[51][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[50]" type="array">
+         <obj_property name="ElementShortName">[50][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[50][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[49]" type="array">
+         <obj_property name="ElementShortName">[49][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[49][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[48]" type="array">
+         <obj_property name="ElementShortName">[48][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[48][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[47]" type="array">
+         <obj_property name="ElementShortName">[47][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[47][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[46]" type="array">
+         <obj_property name="ElementShortName">[46][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[46][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[45]" type="array">
+         <obj_property name="ElementShortName">[45][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[45][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[44]" type="array">
+         <obj_property name="ElementShortName">[44][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[44][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[43]" type="array">
+         <obj_property name="ElementShortName">[43][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[43][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[42]" type="array">
+         <obj_property name="ElementShortName">[42][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[42][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[41]" type="array">
+         <obj_property name="ElementShortName">[41][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[41][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[40]" type="array">
+         <obj_property name="ElementShortName">[40][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[40][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[39]" type="array">
+         <obj_property name="ElementShortName">[39][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[39][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[38]" type="array">
+         <obj_property name="ElementShortName">[38][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[38][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[37]" type="array">
+         <obj_property name="ElementShortName">[37][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[37][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[36]" type="array">
+         <obj_property name="ElementShortName">[36][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[36][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[35]" type="array">
+         <obj_property name="ElementShortName">[35][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[35][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[34]" type="array">
+         <obj_property name="ElementShortName">[34][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[34][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[33]" type="array">
+         <obj_property name="ElementShortName">[33][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[33][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[32]" type="array">
+         <obj_property name="ElementShortName">[32][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[32][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[31]" type="array">
+         <obj_property name="ElementShortName">[31][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[30]" type="array">
+         <obj_property name="ElementShortName">[30][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[29]" type="array">
+         <obj_property name="ElementShortName">[29][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[28]" type="array">
+         <obj_property name="ElementShortName">[28][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[27]" type="array">
+         <obj_property name="ElementShortName">[27][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[26]" type="array">
+         <obj_property name="ElementShortName">[26][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[25]" type="array">
+         <obj_property name="ElementShortName">[25][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[24]" type="array">
+         <obj_property name="ElementShortName">[24][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[23]" type="array">
+         <obj_property name="ElementShortName">[23][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[22]" type="array">
+         <obj_property name="ElementShortName">[22][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[21]" type="array">
+         <obj_property name="ElementShortName">[21][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[20]" type="array">
+         <obj_property name="ElementShortName">[20][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[19]" type="array">
+         <obj_property name="ElementShortName">[19][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[18]" type="array">
+         <obj_property name="ElementShortName">[18][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[17]" type="array">
+         <obj_property name="ElementShortName">[17][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[16]" type="array">
+         <obj_property name="ElementShortName">[16][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[15]" type="array">
+         <obj_property name="ElementShortName">[15][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[14]" type="array">
+         <obj_property name="ElementShortName">[14][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[13]" type="array">
+         <obj_property name="ElementShortName">[13][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[12]" type="array">
+         <obj_property name="ElementShortName">[12][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[11]" type="array">
+         <obj_property name="ElementShortName">[11][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[10]" type="array">
+         <obj_property name="ElementShortName">[10][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[9]" type="array">
+         <obj_property name="ElementShortName">[9][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[8]" type="array">
+         <obj_property name="ElementShortName">[8][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[7]" type="array">
+         <obj_property name="ElementShortName">[7][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[6]" type="array">
+         <obj_property name="ElementShortName">[6][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[5]" type="array">
+         <obj_property name="ElementShortName">[5][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[4]" type="array">
+         <obj_property name="ElementShortName">[4][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[3]" type="array">
+         <obj_property name="ElementShortName">[3][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][7:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[2]" type="array">
+         <obj_property name="ElementShortName">[2][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[1]" type="array">
+         <obj_property name="ElementShortName">[1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tbHazard/HP/DM/DataMemory[0]" type="array">
+         <obj_property name="ElementShortName">[0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

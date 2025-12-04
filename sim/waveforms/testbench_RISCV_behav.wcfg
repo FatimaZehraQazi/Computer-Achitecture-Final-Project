@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_RISCV_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench_RISCV" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2166666fs"></ZoomStartTime>
+      <ZoomEndTime time="3166667fs"></ZoomEndTime>
+      <Cursor1Time time="2384461fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="148"></NameColumnWidth>
+      <ValueColumnWidth column_width="130"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="49" />
+   <wvobject fp_name="/testbench_RISCV/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/PC_In" type="array">
+      <obj_property name="ElementShortName">PC_In[63:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_In[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/PC_Out" type="array">
+      <obj_property name="ElementShortName">PC_Out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_Out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/ReadData1" type="array">
+      <obj_property name="ElementShortName">ReadData1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData1[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/ReadData2" type="array">
+      <obj_property name="ElementShortName">ReadData2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData2[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/WriteData" type="array">
+      <obj_property name="ElementShortName">WriteData[63:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/Result" type="array">
+      <obj_property name="ElementShortName">Result[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Result[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/Read_Data" type="array">
+      <obj_property name="ElementShortName">Read_Data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Read_Data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/imm_data" type="array">
+      <obj_property name="ElementShortName">imm_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/Instruction" type="array">
+      <obj_property name="ElementShortName">Instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[6:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/rs1" type="array">
+      <obj_property name="ElementShortName">rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/rs2" type="array">
+      <obj_property name="ElementShortName">rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/rd" type="array">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/riscv/ALU/A" type="array">
+      <obj_property name="ElementShortName">A[63:0]</obj_property>
+      <obj_property name="ObjectShortName">A[63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/riscv/ALU/B" type="array">
+      <obj_property name="ElementShortName">B[63:0]</obj_property>
+      <obj_property name="ObjectShortName">B[63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/riscv/ALU/ALUOp" type="array">
+      <obj_property name="ElementShortName">ALUOp[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp[3:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/riscv/ALU/Zero" type="logic">
+      <obj_property name="ElementShortName">Zero</obj_property>
+      <obj_property name="ObjectShortName">Zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/riscv/ALU/Result" type="array">
+      <obj_property name="ElementShortName">Result[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Result[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/ALUOp" type="array">
+      <obj_property name="ElementShortName">ALUOp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/adder_out1" type="array">
+      <obj_property name="ElementShortName">adder_out1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">adder_out1[63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/adder_out2" type="array">
+      <obj_property name="ElementShortName">adder_out2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">adder_out2[63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/Branch" type="logic">
+      <obj_property name="ElementShortName">Branch</obj_property>
+      <obj_property name="ObjectShortName">Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/MemRead" type="logic">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/MemtoReg" type="logic">
+      <obj_property name="ElementShortName">MemtoReg</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/ALUSrc" type="logic">
+      <obj_property name="ElementShortName">ALUSrc</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/addermuxselect" type="logic">
+      <obj_property name="ElementShortName">addermuxselect</obj_property>
+      <obj_property name="ObjectShortName">addermuxselect</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/riscv/DM/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/riscv/DM/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/riscv/DM/MemRead" type="logic">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/riscv/DM/Mem_Addr" type="array">
+      <obj_property name="ElementShortName">Mem_Addr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Mem_Addr[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/riscv/DM/Write_Data" type="array">
+      <obj_property name="ElementShortName">Write_Data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Write_Data[63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/riscv/DM/Read_Data" type="array">
+      <obj_property name="ElementShortName">Read_Data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Read_Data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/riscv/DM/index0" type="array">
+      <obj_property name="ElementShortName">index0[63:0]</obj_property>
+      <obj_property name="ObjectShortName">index0[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/riscv/DM/index1" type="array">
+      <obj_property name="ElementShortName">index1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">index1[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/riscv/DM/index2" type="array">
+      <obj_property name="ElementShortName">index2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">index2[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/riscv/DM/index3" type="array">
+      <obj_property name="ElementShortName">index3[63:0]</obj_property>
+      <obj_property name="ObjectShortName">index3[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/riscv/DM/index4" type="array">
+      <obj_property name="ElementShortName">index4[63:0]</obj_property>
+      <obj_property name="ObjectShortName">index4[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/riscv/rf/Registers" type="array">
+      <obj_property name="ElementShortName">Registers[31:0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">Registers[31:0][63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory" type="array">
+      <obj_property name="ElementShortName">DataMemory[63:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">DataMemory[63:0][7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[63]" type="array">
+         <obj_property name="ElementShortName">[63][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[63][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[62]" type="array">
+         <obj_property name="ElementShortName">[62][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[62][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[61]" type="array">
+         <obj_property name="ElementShortName">[61][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[61][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[60]" type="array">
+         <obj_property name="ElementShortName">[60][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[60][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[59]" type="array">
+         <obj_property name="ElementShortName">[59][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[59][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[58]" type="array">
+         <obj_property name="ElementShortName">[58][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[58][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[57]" type="array">
+         <obj_property name="ElementShortName">[57][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[57][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[56]" type="array">
+         <obj_property name="ElementShortName">[56][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[56][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[55]" type="array">
+         <obj_property name="ElementShortName">[55][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[55][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[54]" type="array">
+         <obj_property name="ElementShortName">[54][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[54][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[53]" type="array">
+         <obj_property name="ElementShortName">[53][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[53][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[52]" type="array">
+         <obj_property name="ElementShortName">[52][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[52][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[51]" type="array">
+         <obj_property name="ElementShortName">[51][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[51][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[50]" type="array">
+         <obj_property name="ElementShortName">[50][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[50][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[49]" type="array">
+         <obj_property name="ElementShortName">[49][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[49][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[48]" type="array">
+         <obj_property name="ElementShortName">[48][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[48][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[47]" type="array">
+         <obj_property name="ElementShortName">[47][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[47][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[46]" type="array">
+         <obj_property name="ElementShortName">[46][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[46][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[45]" type="array">
+         <obj_property name="ElementShortName">[45][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[45][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[44]" type="array">
+         <obj_property name="ElementShortName">[44][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[44][7:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[43]" type="array">
+         <obj_property name="ElementShortName">[43][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[43][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[42]" type="array">
+         <obj_property name="ElementShortName">[42][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[42][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[41]" type="array">
+         <obj_property name="ElementShortName">[41][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[41][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[40]" type="array">
+         <obj_property name="ElementShortName">[40][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[40][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[39]" type="array">
+         <obj_property name="ElementShortName">[39][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[39][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[38]" type="array">
+         <obj_property name="ElementShortName">[38][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[38][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[37]" type="array">
+         <obj_property name="ElementShortName">[37][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[37][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[36]" type="array">
+         <obj_property name="ElementShortName">[36][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[36][7:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[35]" type="array">
+         <obj_property name="ElementShortName">[35][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[35][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[34]" type="array">
+         <obj_property name="ElementShortName">[34][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[34][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[33]" type="array">
+         <obj_property name="ElementShortName">[33][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[33][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[32]" type="array">
+         <obj_property name="ElementShortName">[32][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[32][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[31]" type="array">
+         <obj_property name="ElementShortName">[31][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[30]" type="array">
+         <obj_property name="ElementShortName">[30][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[29]" type="array">
+         <obj_property name="ElementShortName">[29][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[28]" type="array">
+         <obj_property name="ElementShortName">[28][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][7:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[27]" type="array">
+         <obj_property name="ElementShortName">[27][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[26]" type="array">
+         <obj_property name="ElementShortName">[26][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[25]" type="array">
+         <obj_property name="ElementShortName">[25][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[24]" type="array">
+         <obj_property name="ElementShortName">[24][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[23]" type="array">
+         <obj_property name="ElementShortName">[23][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[22]" type="array">
+         <obj_property name="ElementShortName">[22][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[21]" type="array">
+         <obj_property name="ElementShortName">[21][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[20]" type="array">
+         <obj_property name="ElementShortName">[20][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][7:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[19]" type="array">
+         <obj_property name="ElementShortName">[19][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[18]" type="array">
+         <obj_property name="ElementShortName">[18][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[17]" type="array">
+         <obj_property name="ElementShortName">[17][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[16]" type="array">
+         <obj_property name="ElementShortName">[16][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[15]" type="array">
+         <obj_property name="ElementShortName">[15][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[14]" type="array">
+         <obj_property name="ElementShortName">[14][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[13]" type="array">
+         <obj_property name="ElementShortName">[13][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[12]" type="array">
+         <obj_property name="ElementShortName">[12][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][7:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[11]" type="array">
+         <obj_property name="ElementShortName">[11][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[10]" type="array">
+         <obj_property name="ElementShortName">[10][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[9]" type="array">
+         <obj_property name="ElementShortName">[9][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[8]" type="array">
+         <obj_property name="ElementShortName">[8][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[7]" type="array">
+         <obj_property name="ElementShortName">[7][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[6]" type="array">
+         <obj_property name="ElementShortName">[6][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[5]" type="array">
+         <obj_property name="ElementShortName">[5][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[4]" type="array">
+         <obj_property name="ElementShortName">[4][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[3]" type="array">
+         <obj_property name="ElementShortName">[3][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[2]" type="array">
+         <obj_property name="ElementShortName">[2][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[1]" type="array">
+         <obj_property name="ElementShortName">[1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench_RISCV/riscv/DM/DataMemory[0]" type="array">
+         <obj_property name="ElementShortName">[0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/riscv/DM/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/index0" type="array">
+      <obj_property name="ElementShortName">index0[63:0]</obj_property>
+      <obj_property name="ObjectShortName">index0[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/index1" type="array">
+      <obj_property name="ElementShortName">index1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">index1[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/index2" type="array">
+      <obj_property name="ElementShortName">index2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">index2[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/index3" type="array">
+      <obj_property name="ElementShortName">index3[63:0]</obj_property>
+      <obj_property name="ObjectShortName">index3[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_RISCV/index4" type="array">
+      <obj_property name="ElementShortName">index4[63:0]</obj_property>
+      <obj_property name="ObjectShortName">index4[63:0]</obj_property>
+   </wvobject>
+</wave_config>

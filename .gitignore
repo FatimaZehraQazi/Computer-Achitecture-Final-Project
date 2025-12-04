@@ -5,9 +5,7 @@
 .cache/
 .hw/
 .ip_user_files/
-.sim/
 .sdk/
-*.xpr
 *.xmp
 *.o
 *.d
@@ -24,12 +22,10 @@
 *.hwdef
 *.sysdef
 
-# Simulation
+# Simulation - but keep .wcfg files
 *.pb
 *.vcd
 *.wdb
-*.wcfg
-*.wdb.*
 xsim.dir/
 xsim.*
 xvlog.*
@@ -41,13 +37,19 @@ xsim.ini
 *.xcix
 *.ipbb
 
-# Don't commit these Vivado folders
-final_project.*/
-
 # Temporary files
 *~
 *.bak
 *.tmp
 
-# Keep project file but not logs
-#!*.xpr
+# Don't commit these Vivado folders
+final_project.*/
+
+# EXCEPTIONS - Keep these
+!*.wcfg
+!*.xpr
+!*.tcl
+
+# But exclude backup files
+*.wcfg.*
+*.wdb.*
