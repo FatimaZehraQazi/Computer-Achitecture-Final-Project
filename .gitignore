@@ -1,0 +1,53 @@
+# Vivado generated files
+*.jou
+*.log
+*.str
+.cache/
+.hw/
+.ip_user_files/
+.sim/
+.sdk/
+*.xpr
+*.xmp
+*.o
+*.d
+*.a
+*.so
+*.bxml
+
+# Implementation results
+*.bit
+*.ltx
+*.mcs
+*.prm
+*.dcp
+*.hwdef
+*.sysdef
+
+# Simulation
+*.pb
+*.vcd
+*.wdb
+*.wcfg
+*.wdb.*
+xsim.dir/
+xsim.*
+xvlog.*
+xelab.*
+xsim.ini
+
+# IP
+*.xci
+*.xcix
+*.ipbb
+
+# Don't commit these Vivado folders
+final_project.*/
+
+# Temporary files
+*~
+*.bak
+*.tmp
+
+# Keep project file but not logs
+#!*.xpr
