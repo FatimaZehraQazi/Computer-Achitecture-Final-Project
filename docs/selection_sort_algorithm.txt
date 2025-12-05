@@ -1,0 +1,75 @@
+
+# Base = 0x100, 7 elements: 
+#unsorted: 77,11,55,99,33,45,2 
+#sorted: 2,11,33,45,55,77,99
+
+    lui   x28, 0x00001
+    addi  x28, x28, 0x100     # x28 = 0x100
+
+    # Store array
+    addi  x10, x0, 77
+    sw    x10, 0(x28)	
+    addi  x10, x0, 11
+    sw    x10, 4(x28)
+    addi  x10, x0, 55
+    sw    x10, 8(x28)
+    addi  x10, x0, 99
+    sw    x10, 12(x28)
+    addi  x10, x0, 33
+    sw    x10, 16(x28)
+    addi  x10, x0, 45
+    sw    x10, 20(x28)
+    addi  x10, x0, 2
+    sw    x10, 24(x28)
+
+    addi  x19, x0, 0          # i = 0
+
+outer_loop:
+    addi  x20, x0, 6          # x20 = 6
+    blt   x19, x20, outer_cont
+    beq   x0, x0, done        
+
+outer_cont:
+    add   x21, x19, x0        # min_idx = i
+    addi  x22, x19, 1         # j = i+1
+    addi  x23, x0, 7          # n = 7
+
+inner_loop:
+    beq   x22, x23, swap_phase
+    slli  x24, x22, 2
+    add   x24, x24, x28
+    lw    x25, 0(x24)         # arr[j]
+    slli  x26, x21, 2
+    add   x26, x26, x28
+    lw    x27, 0(x26)         # arr[min_idx]
+    blt   x25, x27, update_min
+inner_cont:
+    addi  x22, x22, 1
+    beq   x0, x0, inner_loop 
+
+update_min:
+    add   x21, x22, x0
+    beq   x0, x0, inner_cont  
+swap_phase:
+    beq   x19, x21, no_swap
+    slli  x24, x19, 2
+    add   x24, x24, x28
+    lw    x25, 0(x24)
+    slli  x26, x21, 2
+    add   x26, x26, x28
+    lw    x27, 0(x26)
+    sw    x27, 0(x24)
+    sw    x25, 0(x26)
+
+no_swap:
+    addi  x19, x19, 1
+    beq   x0, x0, outer_loop  
+
+done:
+    beq   x0, x0, exit
+    
+exit:
+    
+    
+    
+    
